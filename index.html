@@ -2,6 +2,84 @@
 <html>
 	<head>
 		<title>Document</title>
+		<style>
+			table,
+			th,
+			td {
+				border: 1px solid rebeccapurple;
+				margin: 0;
+				padding: 0;
+			}
+		</style>
 	</head>
-	<body></body>
+	<body>
+		<form action="/formulario" method="post">
+			<label for="nombre">Nombre</label>
+			<input value="fff" id="nombre" name="nombre" />
+			<input type="email" name="mail" />
+			<input type="password" name="ss" />
+			<input type="radio" name="radio" />
+			<input type="range" name="range" />
+			<input type="reset" />
+			<input type="checkbox" />
+			<input type="color" />
+			<input type="week" name="week" />
+			<input type="tel" />
+			<input type="time" name="time" />
+			<input type="url" />
+			<input type="image" />
+			<input type="search" />
+			<input type="date" />
+			<input type="datetime" />
+			<input type="datetime-local" name="datetime-local" />
+			<input type="file" />
+			<input type="hidden" />
+			<input type="button" />
+			<input type="number" />
+			<input type="month" />
+			<br />
+			<br />
+
+			<textarea name="comment" placeholder="pon el comment">gggg</textarea>
+			<br />
+			<input type="submit" />
+		</form>
+
+		<li style="list-style-type: lower-greek"></li>
+
+		<table style="border: 2px solid red">
+			<thead>
+				<tr>
+					<th>Producto</th>
+					<th>precio</th>
+					<th>tottal</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>3d beats</td>
+					<td>gratis</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>3d seat es una silla</td>
+					<td>15</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>3d god</td>
+					<td>20</td>
+					<td>2</td>
+				</tr>
+			</tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>55,00</td>
+                </tr>
+            </tfoot>
+		</table>
+	</body>
 </html>
